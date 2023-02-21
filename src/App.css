@@ -1,8 +1,20 @@
-
 .App {
+  padding: 30px;
+  display: flex;
+}
 
+.App > div {
+  margin-right: 50px;
+}
+
+.active-filter {
+  background-color: aquamarine;
+  border-radius: 3px;
+  border: 2px solid black;
 }
 
 
-
-
+.isDone {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
